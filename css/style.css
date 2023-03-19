@@ -1,0 +1,149 @@
+body{
+  height: 100vh;
+    background: linear-gradient( grey, orange);
+font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Sono', sans-serif;
+}
+  .menu  {
+    width: 75%;
+    float: left;
+    padding: 15px;
+    border: 5px solid cyan;
+  }
+  
+  .main {
+    width: 55%;
+    float: left;
+    padding: 15px;
+    border: 5px  white;
+  }
+  .main {
+      height: 300px;
+      width: 40%;
+      float: left;
+      padding: 15px;
+      border: 5px  white;
+    }
+    .main {
+      height: 300px;
+      width: 40%;
+      float: left;
+      padding: 15px;
+      border: 5px solid white;
+    }
+    .main {
+      height: 300px;
+      width: 40%;
+      float: right;
+      padding: 15px;
+      border: 5px white;
+    }
+    .main {
+      height: 300px;
+      width: 40%;
+      float: left;
+      padding: 15px;
+      border: 5px  white;
+    }
+
+    
+.contenedor{
+height: 40%;
+    width: 100%;
+ padding: 10px 10px 30px; 
+background: linear-gradient(450deg, darkblue, black);
+
+ border: 2px solid rgba(0, 0, 0, 0.06);
+   border-radius: 5px;
+ box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2);
+ backdrop-filter: blur(5px);
+    
+}
+.contenedor *{
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     color: whitesmoke;
+    }
+.h2{
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+    text-align: center;
+
+}
+.kills:not(:last-child){
+ margin: bottom 10px; ;
+}
+.detalles{
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+
+}
+.menu{
+position: relative;
+border:1px solid cyan ;
+border-radius: 10px;
+
+}
+.menu div{
+    position: relative;
+    width: 0;
+    height: 5px;
+    border-radius: 10px;
+    background-color: cyan;
+}
+/*  animacion */
+#html-menu{
+    animation:html-barra 2s forwards;
+
+}
+@keyframes html-barra{
+    100%{
+        width: 100%;
+    }
+}
+#excel-menu{
+    animation:excel-barra 2s forwards ;
+
+}
+@keyframes excel-barra{
+    100%{
+        width: 100%;
+    }
+}#publisher-menu{
+    animation:publisher-barra 2s forwards ;
+
+}
+@keyframes publisher-barra{
+    100%{
+        width: 80%;
+    }
+}
+#word-menu{
+    animation:word-barra 2s forwards ;
+
+}
+@keyframes word-barra{
+    100%{
+        width: 90%;
+    }
+}
+
+#js-menu{
+    animation:js-barra 2s forwards ;
+
+}
+@keyframes js-barra{
+    100%{
+        width: 75%;
+    }
+}
+#ingles-menu{
+    animation:ingles-barra 2s forwards ;
+
+}
+@keyframes ingles-barra{
+    100%{
+        width: 99%;
+    }
+}
